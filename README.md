@@ -1,4 +1,4 @@
-# Energy Drink - ecommerce homepage
+# Energy Drink - E-commerce homepage
 
 This is a homepage clone of the website roxxenergy.com.br made with practicing purpose.
 
