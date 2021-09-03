@@ -229,6 +229,12 @@ form {
 img {
   width: 100%;
 }
+.categories img:hover {
+  opacity: 0.85;
+  transition: ease-in-out 0.25s;
+  cursor: pointer;
+}
+
 .main .categories .secondRow {
   display: flex;
   flex-direction: row;
@@ -278,14 +284,14 @@ img {
   width: fit-content;
   height: fit-content;
 }
-/* .bestSeller1:hover,
+.bestSeller1:hover,
 .bestSeller3:hover,
 .bestSeller2:hover,
 .bestSeller4:hover,
 .bestSeller5:hover,
 .bestSeller6:hover {
-  background-color: black;
-} */
+    box-shadow: 0 0 10px 1px rgb(220, 220, 220);
+}
 
 .bestSellers a {
   text-align: center;
@@ -297,6 +303,12 @@ img {
   font-family: Oswald;
   font-size: 1.3rem;
   margin: 15px 0;
+}
+.itemBs a {
+  line-height: 1.9rem;
+}
+.itemBs a:hover {
+  text-decoration: underline;
 }
 .main .bestSellers .btnComprar {
   display: flex;
