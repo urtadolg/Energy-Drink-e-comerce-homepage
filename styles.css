@@ -283,6 +283,7 @@ img {
   align-items: center;
   width: fit-content;
   height: fit-content;
+  padding: 40px 10px;
 }
 .bestSeller1:hover,
 .bestSeller3:hover,
@@ -291,6 +292,7 @@ img {
 .bestSeller5:hover,
 .bestSeller6:hover {
     box-shadow: 0 0 10px 1px rgb(220, 220, 220);
+    cursor: pointer;
 }
 
 .bestSellers a {
@@ -303,6 +305,7 @@ img {
   font-family: Oswald;
   font-size: 1.3rem;
   margin: 15px 0;
+  
 }
 .itemBs a {
   line-height: 1.9rem;
@@ -310,6 +313,7 @@ img {
 .itemBs a:hover {
   text-decoration: underline;
 }
+
 .main .bestSellers .btnComprar {
   display: flex;
   flex-direction: row;
@@ -318,10 +322,12 @@ img {
   height: 35px;
   width: 50%;
   background-color: #4d23a8;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 .main .bestSellers div {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 32%;
   margin-bottom: 1%;
 }
