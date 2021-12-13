@@ -1,6 +1,6 @@
 # Energy Drink - E-commerce homepage
 
-This is a homepage clone of the website roxxenergy.com.br made for practicing purpose.
+This is a homepage of the website roxxenergy.com.br made to improve some UX / UI details.
 
 Preview: https://urtadolg.github.io/Energy-Drink-e-commerce-homepage/
 
